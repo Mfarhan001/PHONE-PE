@@ -1,0 +1,138 @@
+@media (max-width: 480px) {
+    /* Navbar - No Change */
+    .bottum-nav{
+       display: none;
+       
+    }
+    #nav-top{
+        width: 100%;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    
+
+    /* Hero Section */
+    .TEXT-ONE {
+        width: 90%;
+        left: 5%;
+        bottom: 30px;
+        text-align: center;
+    }
+
+    .TEXT-ONE h1 {
+        font-size: 32px;
+    }
+
+    .TEXT-ONE h4 {
+        font-size: 20px;
+    }
+
+    .TEXT-ONE p {
+        font-size: 16px;
+    }
+
+    /* Cards */
+    .card-con {
+        flex-wrap: wrap;
+        height: auto;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .card {
+        width: 90%;
+        height: auto;
+    }
+
+    /* Video & Text Section */
+    .TEXT-2-VIDEO-CON {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .TEXT-2, .VIDEO-1 {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .text-gap h1 {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .text-gap h2 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    /* Image Section */
+    .IMAGE-4 {
+        width: 100%;
+        height: auto;
+    }
+
+    #img-2 {
+        width: 80%;
+        height: auto;
+        position: relative;
+        bottom: 200px;
+    }
+
+    /* Footer */
+    .footer {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .footer-column {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+
+    /* Buttons */
+    .TEXT-3 button,
+    .TEXT-4 button {
+        width: 90%;
+        font-size: 18px;
+        padding: 10px;
+    }
+}
+
+ 
+  @media (max-width: 768px) {
+
+
+    .bottum-nav{
+        display: none;
+        
+     }
+
+     #nav-top{
+        width: 100%;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+    .footer-column {
+        width: 100%;
+    }
+    .social-icons {
+        justify-content: center;
+    }
+}
+  
